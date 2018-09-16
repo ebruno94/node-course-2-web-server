@@ -76,6 +76,12 @@ app.get('/about', (req, res) => {
   });
 });
 
+app.get('/projects', (req, res) => {
+  res.render('projects.hbs', {
+    pageTitle: 'Portfolio Page'
+  });
+});
+
 // CHALLENGE
 // Create a route to /bad, send back JSON data with errorMessage.
 
