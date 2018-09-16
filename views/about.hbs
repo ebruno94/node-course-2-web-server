@@ -5,10 +5,10 @@
     <title>Some Website</title>
   </head>
   <body>
-    <h1>{{pageTitle}}</h1>
+    {{> header}} 12312321
     <p>Some text here</p>
-    <footer>
-      <p>Copyright {{currentYear}}</p>
-    </footer>
+
+    <!--  render footer.hbs from partials folder-->
+    {{> footer}}
   </body>
 </html>

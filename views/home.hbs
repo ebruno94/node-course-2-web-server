@@ -5,10 +5,10 @@
     <title>{{pageTitle}}</title>
   </head>
   <body>
-    <h1>{{pageTitle}}</h1>
-    <p>{{pageBody}}</p>
-    <footer>
-      <p>Copyright {{currentYear}}</p>
-    </footer>
+    {{> header}}
+    <p>{{screamIt welcomeMessage}}</p>
+
+    <!--  render footer.hbs from partials folder-->
+    {{> footer}}
   </body>
 </html>
